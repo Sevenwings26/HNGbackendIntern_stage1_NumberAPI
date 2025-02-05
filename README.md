@@ -1,4 +1,4 @@
-# Number API - FastAPI
+# Number API - Stage 1 HNG task
 
 A FastAPI-based web service that provides information about a given number, including whether it is prime, perfect, Armstrong, and more.
 
@@ -6,13 +6,13 @@ A FastAPI-based web service that provides information about a given number, incl
 - Check if a number is **prime** or **perfect**
 - Determine if a number is **Armstrong** or **odd/even**
 - Calculate the **sum of digits**
-- Fetch a **fun fact** about the number from the Numbers API / 
+- Fetch a **fun fact** about the number from the Numbers API - http://numbersapi.com/#34
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-repo/number-api.git
+   git clone https://github.com/Sevenwings26/HNGbackendIntern_stage1_NumberAPI.git
    cd number-api
    ```
 
