@@ -83,7 +83,16 @@ async def index():
         "usage": "Add a number to the URL like this: /number/256",
         "example": "http://127.0.0.1:8080/number/256"
     }
-
+# Apology to avoid_me - 27th Feb, 25 
+@app.get("/apology")
+async def apology_to_avoidme():
+    return{
+        "first_name":"Iyanu",
+        "last_name":"Arowosola",
+        "Track":"Backend",
+        "Offense":"I didn't follow instructions in time.",
+        "Apology":"I take full responsibity for my actions, and I determine to follow instructions as given my mentors."
+    }
 
 @app.get("/number/{num}", response_model=NumberRequest)
 # @app.get("/number/{num}")
